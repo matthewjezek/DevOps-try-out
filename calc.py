@@ -2,6 +2,7 @@
 class Calculator:
   def add(self, a, b):
     return a + b
+    # tohle sčítá
     
   def subtract(self, a, b):
     return a - b
