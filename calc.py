@@ -1,6 +1,6 @@
 # calc.py
 class Calculator:
-    def add(self, a, b):
+    def add(self, a, b) -> int:
         return a + b
         # tohle sčítá
 
