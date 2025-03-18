@@ -25,3 +25,6 @@ jobs:
         
       - name: Check Formatting with Black
         run: black --check calc.py
+
+      - name: Check type hinting with Mypy
+        run: mypy calc.py
